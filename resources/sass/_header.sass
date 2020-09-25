@@ -1,0 +1,207 @@
+.header
+    width: 100%
+    margin: 0 auto
+    transition: $transition
+
+
+
+    @media (min-width: 992px)
+        &--fixed
+
+            position: fixed
+            top: 0
+            z-index: 999
+
+            .header__top
+                padding: 10px 0
+
+            .header__contacts
+                display: none
+
+            .header__logo
+                height: 40px
+
+            .header__popup
+                flex-direction: row
+                width: 100%
+
+            .header__popup-wrapper
+                flex-direction: row
+                width: 100%
+                align-items: center
+            .header__popup-text
+                margin-right: 20px
+
+
+    @media (max-width: 992px)
+        position: fixed
+        top: 0
+        left: -100%
+        bottom: 0
+        width: 100%
+        z-index: 99
+        background-color: #000000
+        display: flex
+        flex-direction: column
+        justify-content: center
+        &--active
+            left: 0
+    // .header__top
+    &__top
+        width: 100%
+        margin: 0 auto
+        padding: 25px 0
+        background-color: $backgroung-overdark
+        @media (max-width: 992px)
+            background: #000
+    // .header__inner
+    &__inner
+        width: 100%
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media (max-width: 992px)
+            flex-direction: column
+    // .header__logo-wrapper
+    &__logo-wrapper
+        width: 33%
+        text-align: start
+        @media (max-width: 992px)
+            width: 100%
+            text-align: center
+            margin-bottom: 20px
+    // .header__logo
+
+    &__logo
+        height: 60px
+        @media (max-width: 992px)
+            height: 30px
+    // .header__logo-link
+
+    &__logo-link
+        display: block
+
+    // .header__contacts
+
+    &__contacts
+        width: 33%
+        text-align: center
+        @media (max-width: 992px)
+            text-align: center
+            margin-bottom: 20px
+            width: 100%
+
+    &__contacts-text
+        font-weight: 700
+        font-size: 20px
+        text-transform: uppercase
+        color: $accent-color
+        @media (max-width: 992px)
+            font-size: 16px
+    // .header__phone
+    &__phone
+        text-decoration: none
+        color: #ffffff
+        font-weight: 700
+        font-size: 20px
+        &:hover
+            color: $accent-color
+
+
+    // .header__popup
+
+    &__popup
+        width: 33%
+        text-align: end
+        display: flex
+        flex-direction: column
+        @media (max-width: 992px)
+            text-align: center
+            width: 100%
+            align-items: center
+
+    // .header__popup-wrapper
+    &__popup-wrapper
+        color: #ffffff
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        text-align: end
+        justify-content: flex-end
+        @media (max-width: 992px)
+            text-align: center
+    &__popup-text
+        color: $accent-color
+        width: 178px
+        font-weight: 700
+
+    // .header__bottom
+
+    &__bottom
+        width: 100%
+        margin: 0 auto
+        padding: 10px 0
+        text-align: center
+        background-color: $accent-color
+        @media (max-width: 992px)
+            background-color: #000000
+
+    // .header__nav
+    &__nav
+        display: inline-block
+        margin: 0 auto
+        @media (max-width: 992px)
+
+    // .header__list
+
+    &__list
+        list-style: none
+        display: flex
+        margin: 0
+        padding: 0
+        li + li
+            margin-left: 15px
+            @media (max-width: 992px)
+                margin-left: 0
+                margin-top: 15px
+
+        @media (max-width: 992px)
+            flex-direction: column
+
+
+    // .header__link
+
+    &__link
+        display: inline-block
+        margin-left: 15px
+        text-decoration: none
+        font-weight: 700
+        color: #333333
+        position: relative
+        transition: $transition
+        &::after
+            content: ''
+            position: absolute
+            bottom: 0
+            left: 50%
+            transform: translateX(-50%)
+            height: 2px
+            width: 0
+            background-color: #000000
+            transition: $transition
+        &--active::after
+            width: 100%
+
+
+
+
+        @media (max-width: 992px)
+            margin-left: 0
+            text-transform: uppercase
+            color: #ffffff
+        &:hover
+            color: #000000
+            &::after
+                width: 100%
+
