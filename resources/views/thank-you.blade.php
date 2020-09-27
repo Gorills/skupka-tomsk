@@ -1,15 +1,15 @@
 @extends('layouts.custom')
 
 
-@section('title', 'Спасибо за заявку | ООО Изотермакс')
+@section('title', 'Спасибо за заявку')
 @section('description', 'Заявка принята и находится в обработке')
 @section('keywords', '')
-@section('canonical', 'https://beton70.com/thank-you')
-@section('og:title', 'Спасибо за заявку | ООО Изотермакс')
+@section('canonical', '')
+@section('og:title', 'Спасибо за заявку')
 @section('og:description', 'Заявка принята и находится в обработке')
 @section('og:url', '')
 @section('twitter:description', 'Заявка принята и находится в обработке')
-@section('twitter:title', 'Спасибо за заявку | ООО Изотермакс')
+@section('twitter:title', 'Спасибо за заявку')
 
 @section('content')
 
