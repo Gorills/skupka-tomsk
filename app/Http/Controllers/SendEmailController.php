@@ -25,13 +25,13 @@ class SendEmailController extends Controller
 
             'name'      => $request->name,
             'tel'       => $request->tel,
-            'message'   => $request->message,
-            'select'      => $request->select
+            'select'      => $request->select,
+            'msg'       => $request->msg
         );
 
-        Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
-        return view('thank-you');
 
+        Mail::to('gorivacnikiy@gmail.com')->send(new SendMail($data));
+        return view('thank-you');
 
 
     }
