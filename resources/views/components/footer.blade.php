@@ -41,9 +41,9 @@
                 <div class="footer__follow">
                     <p class="footer__follow-text">Мы в соцсетях:</p>
 
-                    <a href="#" class="footer__follow-link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="footer__follow-link"><i class="fab fa-vk"></i></a>
-                    <a href="#" class="footer__follow-link"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="https://vk.com/lombardtomsk" class="footer__follow-link"><i class="fab fa-vk"></i></a>
+
 
 
 

@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('title', 'Скупка телефонов в Томске по самым выгодным ценам | Продать телефон ')
+@section('description', 'Сдать телефон в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
+@section('keywords', 'продать телефон, сдеть телефон, скупка телефонов')
+@section('canonical', 'https://skupka-tomsk.ru/skupka-telefonov')
+@section('og:title', 'Скупка телефонов в Томске по самым выгодным ценам | Продать телефон ')
+@section('og:description', 'Сдать телефон в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
+@section('og:url', 'https://skupka-tomsk.ru/skupka-telefonov')
+@section('twitter:title', 'Скупка телефонов в Томске по самым выгодным ценам | Продать телефон ')
+@section('twitter:description', 'Сдать телефон в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
 
 
 @section('content')

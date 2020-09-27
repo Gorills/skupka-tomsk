@@ -1128,6 +1128,27 @@ a {
   margin-top: 20px;
 }
 
+.about__wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.about__link {
+  display: inline-block;
+  margin: 20px auto 0;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #FFD90B;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+.about__link:hover {
+  background-color: #FFD90B;
+  color: #000;
+}
+
 .form {
   display: flex;
   flex-direction: column;

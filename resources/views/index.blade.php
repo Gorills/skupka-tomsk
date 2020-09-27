@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('title', 'Комиссионный магазин в Томске | Покупка и продажа техники в Томске')
+@section('description', 'Покупаем технику бу в Томске по самым выгодным ценам. Скупка техники: быстро, дорого.')
+@section('keywords', 'комиссионный магазин, скупка техники, сдать технику, продать технику')
+@section('canonical', 'https://skupka-tomsk.ru/')
+@section('og:title', 'Комиссионный магазин в Томске | Покупка и продажа техники в Томске')
+@section('og:description', 'Покупаем технику бу в Томске по самым выгодным ценам. Скупка техники: быстро, дорого.')
+@section('og:url', 'https://skupka-tomsk.ru/')
+@section('twitter:title', 'Комиссионный магазин в Томске | Покупка и продажа техники в Томске')
+@section('twitter:description', 'Покупаем технику бу в Томске по самым выгодным ценам. Скупка техники: быстро, дорого.')
 
 
 @section('content')
@@ -59,11 +59,18 @@
         <div class="container">
             <div class="about__inner">
                 <h2 class="about__title">Комиссионный магазин "Авангардъ"</h2>
-                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolore ea earum eligendi esse ex harum iure laborum magnam molestiae nobis officia omnis, porro quia reprehenderit vero voluptatem! Blanditiis, consectetur.</p>
-                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolore ea earum eligendi esse ex harum iure laborum magnam molestiae nobis officia omnis, porro quia reprehenderit vero voluptatem! Blanditiis, consectetur.</p>
-                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolore ea earum eligendi esse ex harum iure laborum magnam molestiae nobis officia omnis, porro quia reprehenderit vero voluptatem! Blanditiis, consectetur.</p>
-                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolore ea earum eligendi esse ex harum iure laborum magnam molestiae nobis officia omnis, porro quia reprehenderit vero voluptatem! Blanditiis, consectetur.</p>
+                <p class="about__text">
+                    Мы предоставляем услуги скупки техники в Томске и делаем это уже давно. В нашем комиссионном магазине действуют самые выгодные цены
+                    в Томске и моментальная оценка. Вы легко можете продать любую технику, просто обратившись в наши магазины по адресам: ул. Шевченко, 21а,
+                    ул. Учебная, 18.
+                </p>
+                <p class="about__text">В наших магазинах вы можете найти большой ассортимент техники в отличном состоянии. Для того, чтобы
+                просмотреть каталог нашего комиссионного магазина перейдите по ссылке ниже.
+                </p>
+                <div class="about__wrapper">
+                    <a href="https://lombardvtomske.ru/catalog" class="about__link">В магазин</a>
 
+                </div>
 
             </div>
         </div>

@@ -1,15 +1,15 @@
 
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('title', 'Скупка инструмента в Томске по самым выгодным ценам | Продать строительный инструмент')
+@section('description', 'Сдать инструмент в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
+@section('keywords', 'скупка инструмента, продать строительный инструмент, сдать инструмент')
+@section('canonical', 'https://skupka-tomsk.ru/skupka-instrumentov')
+@section('og:title', 'Скупка инструмента в Томске по самым выгодным ценам | Продать строительный инструмент')
+@section('og:description', 'Сдать инструмент в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
+@section('og:url', 'https://skupka-tomsk.ru/skupka-instrumentov')
+@section('twitter:title', 'Скупка инструмента в Томске по самым выгодным ценам | Продать строительный инструмент')
+@section('twitter:description', 'Сдать инструмент в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
 
 
 @section('content')
