@@ -32,7 +32,7 @@ class SendEmailController extends Controller
         Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
         return view('thank-you');
 
-        
+
 
     }
 }
