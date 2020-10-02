@@ -30,7 +30,7 @@ class SendEmailController extends Controller
         );
 
 
-        Mail::to('gorivacnikiy@gmail.com')->send(new SendMail($data));
+        Mail::to('gorivanickiy@gmail.com')->send(new SendMail($data));
         return view('thank-you');
 
 
