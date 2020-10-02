@@ -25,6 +25,12 @@ Route::get('/skupka-instrumentov', function () {
     return view('skupka-instrumentov');
 });
 
+Route::get('/thank', function () {
+    return view('thank-you');
+});
+
+
+
 Route::get('/contacts', function () {
     return view('contacts');
 });

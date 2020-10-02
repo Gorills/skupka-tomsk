@@ -18,7 +18,7 @@
     <div class="error">
         <div class="container">
             <div class="error__inner">
-                <h1 class="razrab__title">Ваша заявка принята! Мы свяжемся с вами в ближайшее время!</h1>
+                <h1 class="error__title">Ваша заявка принята! Мы свяжемся с вами в ближайшее время!</h1>
 
 
             </div>
