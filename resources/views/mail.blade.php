@@ -23,8 +23,3 @@
 
 
 
-@if($data['page'])
-<p>Заявка со страницы: {{ $data['page'] }}</p>
-@else
-
-@endif
