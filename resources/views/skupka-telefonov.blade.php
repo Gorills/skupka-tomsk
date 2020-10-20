@@ -2,7 +2,7 @@
 
 @section('title', 'Скупка телефонов в Томске по самым выгодным ценам | Продать телефон ')
 @section('description', 'Сдать телефон в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
-@section('keywords', 'продать телефон, сдеть телефон, скупка телефонов')
+@section('keywords', 'продать телефон, сдать телефон, скупка телефонов')
 @section('canonical', 'https://skupka-tomsk.ru/skupka-telefonov')
 @section('og:title', 'Скупка телефонов в Томске по самым выгодным ценам | Продать телефон ')
 @section('og:description', 'Сдать телефон в комиссионный магазин в Томске дорого. Быстрая оценка, моментальные выплаты, выгодные цены. ')
@@ -44,7 +44,12 @@
                 @component('components.form')
 
                     @slot('select')
-                        <textarea class="form__input" name="msg" id="" cols="30" rows="10" placeholder="Описание"></textarea>
+                        <textarea class="form__input" name="msg" id="" cols="30" rows="10" placeholder="Характеристики или описание товара"></textarea>
+
+                        <select hidden="hidden" class="form__input" name="select" id="select">
+
+                            <option selected value="Инструмент">Телефоны</option>
+                        </select>
                     @endslot
 
 

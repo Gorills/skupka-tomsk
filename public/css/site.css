@@ -1064,6 +1064,7 @@ a {
   margin: 0 auto 40px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 992px) {
@@ -1080,6 +1081,7 @@ a {
   color: #000000;
   transition: all 0.5s ease;
   outline: none;
+  margin: 15px auto;
 }
 
 .start__item:hover {
@@ -1096,7 +1098,7 @@ a {
 
 @media (max-width: 992px) {
   .start__item + .start__item {
-    margin-left: 0;
+    margin: 15px auto;
   }
 }
 

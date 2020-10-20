@@ -25,6 +25,35 @@ Route::get('/skupka-instrumentov', function () {
     return view('skupka-instrumentov');
 });
 
+Route::get('/skupka-televizorov', function () {
+    return view('skupka-televizorov');
+});
+
+Route::get('/skupka-planshetov', function () {
+    return view('skupka-planshetov');
+});
+
+Route::get('/skupka-magnitol', function () {
+    return view('skupka-magnitol');
+});
+
+
+Route::get('/skupka-kompyuterov', function () {
+    return view('skupka-kompyuterov');
+});
+
+//Route::get('/', function () {
+//    return view('');
+//});
+
+
+
+
+
+
+
+
+
 Route::get('/thank', function () {
     return view('thank-you');
 });

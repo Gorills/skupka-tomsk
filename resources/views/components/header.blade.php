@@ -60,15 +60,35 @@
                         </li>
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/skupka-telefonov') }}" itemprop="url">Скупка телефонов</a>
+                            <a class="header__link" href="{{ url('/skupka-telefonov') }}" itemprop="url">Телефоны</a>
                             <meta itemprop="name" content="Скупка телефонове" />
                         </li>
 
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/skupka-instrumentov') }}" itemprop="url">Скупка инструментов</a>
+                            <a class="header__link" href="{{ url('/skupka-instrumentov') }}" itemprop="url">Инструмент</a>
                             <meta itemprop="name" content="Скупка инструментов" />
                         </li>
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/skupka-televizorov') }}" itemprop="url">Телевизоры</a>
+                            <meta itemprop="name" content="Скупка Телевизоров" />
+                        </li>
+
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/skupka-planshetov') }}" itemprop="url">Планшеты</a>
+                            <meta itemprop="name" content="Скупка Планшетов" />
+                        </li>
+
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/skupka-kompyuterov') }}" itemprop="url">Компьютеры</a>
+                            <meta itemprop="name" content="Скупка Компьютеров" />
+                        </li>
+
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                            <a class="header__link" href="{{ url('/skupka-magnitol') }}" itemprop="url">Магнитолы</a>
+                            <meta itemprop="name" content="Скупка Магнитол" />
+                        </li>
+
 
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">

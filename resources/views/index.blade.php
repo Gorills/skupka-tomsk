@@ -34,8 +34,24 @@
                     </a>
 
                     <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
-                        <img src="{{ URL::asset('images/item/2.png') }}" alt="Скупка телефонов" class="start__img">
+                        <img src="{{ URL::asset('images/item/2.png') }}" alt="Скупка инструмента" class="start__img">
                         <p class="start__item-text">Строительный инструмент</p>
+                    </a>
+                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                        <img src="{{ URL::asset('images/item/telev.png') }}" alt="Скупка телевизоров" class="start__img">
+                        <p class="start__item-text">Телевизоры</p>
+                    </a>
+                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                        <img src="{{ URL::asset('images/item/plan.png') }}" alt="Скупка планшетов" class="start__img">
+                        <p class="start__item-text">Планшеты</p>
+                    </a>
+                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                        <img src="{{ URL::asset('images/item/magn.png') }}" alt="Скупка магнитол" class="start__img">
+                        <p class="start__item-text">Магнитолы</p>
+                    </a>
+                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                        <img src="{{ URL::asset('images/item/comp.png') }}" alt="Скупка компьютеров" class="start__img">
+                        <p class="start__item-text">Компьютеры</p>
                     </a>
 
                 </div>
@@ -46,6 +62,10 @@
                         <select class="form__input" name="select" id="select">
                             <option value="Телефон">Телефон</option>
                             <option value="Инструмент">Инструмент</option>
+                            <option value="Инструмент">Телевизор</option>
+                            <option value="Инструмент">Магнитолу</option>
+                            <option value="Инструмент">Планшет</option>
+                            <option value="Инструмент">Компьютер</option>
                         </select>
                     @endslot
                 @endcomponent

@@ -20,11 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801d9ff4-f836-4d11-b937-b02019cfed00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/sass/_thank.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/item/comp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/item/magn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/item/plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/item/telev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/skupka-kompyuterov.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/skupka-magnitol.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/skupka-planshetov.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/skupka-televizorov.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/site.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/site.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/thank-you.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thank-you.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_start.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_start.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skupka-instrumentov.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skupka-instrumentov.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skupka-telefonov.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skupka-telefonov.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +201,9 @@
       <workItem from="1601198906641" duration="5797000" />
       <workItem from="1601255857954" duration="166000" />
       <workItem from="1601263213063" duration="9000" />
-      <workItem from="1601601633407" duration="1286000" />
+      <workItem from="1601601633407" duration="4019000" />
+      <workItem from="1601693999038" duration="79000" />
+      <workItem from="1603156667357" duration="3454000" />
     </task>
     <servers />
   </component>
@@ -210,10 +223,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="719" y="262" width="424" height="507" key="FileChooserDialogImpl" timestamp="1601034794878">
+    <state x="719" y="262" width="424" height="507" key="FileChooserDialogImpl" timestamp="1601694096666">
       <screen x="0" y="0" width="1883" height="1043" />
     </state>
-    <state x="719" y="262" width="424" height="507" key="FileChooserDialogImpl/0.0.1883.1043@0.0.1883.1043" timestamp="1601034794878" />
+    <state x="719" y="262" width="424" height="507" key="FileChooserDialogImpl/0.0.1883.1043@0.0.1883.1043" timestamp="1601694096666" />
     <state x="605" y="238" key="run.anything.popup" timestamp="1600748613179">
       <screen x="0" y="0" width="1883" height="1043" />
     </state>

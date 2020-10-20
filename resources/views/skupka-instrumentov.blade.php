@@ -45,7 +45,12 @@
                 @component('components.form')
 
                     @slot('select')
-                        <textarea class="form__input" name="msg" id="" cols="30" rows="10" placeholder="Описание"></textarea>
+
+                        <textarea class="form__input" name="msg" id="" cols="30" rows="10" placeholder="Характеристики или описание товара"></textarea>
+                        <select hidden="hidden" class="form__input" name="select" id="select">
+
+                            <option selected value="Инструмент">Инструмент</option>
+                        </select>
                     @endslot
 
 
