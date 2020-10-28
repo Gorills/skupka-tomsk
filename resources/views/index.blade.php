@@ -37,19 +37,19 @@
                         <img src="{{ URL::asset('images/item/2.png') }}" alt="Скупка инструмента" class="start__img">
                         <p class="start__item-text">Строительный инструмент</p>
                     </a>
-                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                    <a href="{{ url('/skupka-televizorov') }}" class="start__item">
                         <img src="{{ URL::asset('images/item/telev.png') }}" alt="Скупка телевизоров" class="start__img">
                         <p class="start__item-text">Телевизоры</p>
                     </a>
-                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                    <a href="{{ url('/skupka-planshetov') }}" class="start__item">
                         <img src="{{ URL::asset('images/item/plan.png') }}" alt="Скупка планшетов" class="start__img">
                         <p class="start__item-text">Планшеты</p>
                     </a>
-                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                    <a href="{{ url('/skupka-magnitol') }}" class="start__item">
                         <img src="{{ URL::asset('images/item/magn.png') }}" alt="Скупка магнитол" class="start__img">
                         <p class="start__item-text">Магнитолы</p>
                     </a>
-                    <a href="{{ url('/skupka-instrumentov') }}" class="start__item">
+                    <a href="{{ url('/skupka-kompyuterov') }}" class="start__item">
                         <img src="{{ URL::asset('images/item/comp.png') }}" alt="Скупка компьютеров" class="start__img">
                         <p class="start__item-text">Компьютеры</p>
                     </a>
