@@ -1,30 +1,27 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Контакты | Авангардъ')
+@section('description', 'Контакты | Авангардъ')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
+@section('og:title', 'Контакты | Авангардъ')
 @section('og:description', '')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Контакты | Авангардъ')
+@section('twitter:description', 'Контакты | Авангардъ')
 
 
 @section('content')
 
-    <?php $pages = 'Скупка телефонов' ?>
+    <?php $pages = 'Контакты' ?>
 
     @component('components.breadcrumb')
-        {{--        @slot('title') Промышленная теплоизоляция @endslot--}}
-
+   
 
         @slot('parent') Главная @endslot
 
-        {{--        @slot('prev') Промышленная теплоизоляция @endslot--}}
-        {{--        @slot('link') {{ url('/promyshlennaya-teploizolyaciya') }} @endslot--}}
-
-        @slot('active') Кондакты @endslot
+     
+        @slot('active') Контакты @endslot
         @slot('activelink') {{ url('/contacts') }} @endslot
 
 

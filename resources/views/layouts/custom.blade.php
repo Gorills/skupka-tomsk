@@ -37,6 +37,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="{{URL::asset('/fav/apple-touch-icon-152x152.png')}}" />
     <link rel="apple-touch-icon" sizes="180x180" href="{{URL::asset('/fav/apple-touch-icon-180x180.png')}}" />
     <meta name="yandex-verification" content="34a2d5fe101a988e" />
+    <meta name="google-site-verification" content="5OVqQTkB1AhcZO1pSNpu-2tnYA5IffDrWKT0fVc-EVk" />
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
