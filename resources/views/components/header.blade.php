@@ -85,7 +85,7 @@
                         </li>
 
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                            <a class="header__link" href="{{ url('/skupka-magnitol') }}" itemprop="url">Магнитолы</a>
+                            <a class="header__link" href="{{ url('/skupka-magnitol') }}" itemprop="url">Аудиотехника</a>
                             <meta itemprop="name" content="Скупка Магнитол" />
                         </li>
 

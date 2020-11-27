@@ -16,12 +16,43 @@
 
     @php ($pages = 'Главная')
 
-    <section class="start">
+
+    <div class="starter">
+        <div class="container">
+            <div class="starter__inner">
+                <h2 class="starter__title">Добро пожаловать на наш сайт!</h2>
+                <p class="starter__text">Выберите нужный раздел:</p>
+
+                <div class="starter__wrapper">
+
+            
+
+                    <a href="{{ url('#start') }}" class="starter__item">
+                        <img src="{{ URL::asset('images/path64.png') }}" alt="" class="starter__img">
+                        <p class="starter__item-text">Продать</p>
+                    </a>
+
+                    <a href="{{ url('https://lombardvtomske.ru/catalog') }}" class="starter__item">
+                        <img src="{{ URL::asset('images/path64.png') }}" alt="" class="starter__img">
+                        <p class="starter__item-text">Купить</p>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section class="start" id='start'>
         <div class="container">
             <div class="start__inner">
                 <h1 class="start__title">Комиссионный магазин в Томске</h1>
 
-                <p class="start__text">Быстрая оценка и выгодные цены. Скупаем б/у технику.</p>
+                <p class="start__text">Наличные сразу. Быстрая оценка и выгодные цены. Скупаем б/у технику.</p>
 
                 <p class="start__subtitle">Мы покупаем:</p>
 
@@ -47,7 +78,7 @@
                     </a>
                     <a href="{{ url('/skupka-magnitol') }}" class="start__item">
                         <img src="{{ URL::asset('images/item/magn.png') }}" alt="Скупка магнитол" class="start__img">
-                        <p class="start__item-text">Магнитолы</p>
+                        <p class="start__item-text">Аудиотехника</p>
                     </a>
                     <a href="{{ url('/skupka-kompyuterov') }}" class="start__item">
                         <img src="{{ URL::asset('images/item/comp.png') }}" alt="Скупка компьютеров" class="start__img">
